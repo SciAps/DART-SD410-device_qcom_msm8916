@@ -113,3 +113,6 @@ ro.sf.lcd_density=480
 
 # system property for PIP support
 persist.camera.pip.support=0
+#CEC settings
+ro.hdmi.device_type=4
+persist.sys.hdmi.addr.playback=4
