@@ -135,3 +135,8 @@ service wcnss-service /system/bin/wcnss_service
     user system
     group system wifi
     oneshot
+
+service adsprpcd /system/bin/adsprpcd
+   class main
+   user media
+   group media
